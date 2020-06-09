@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,header,div,nav,footer,section{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Showcase css start */
+.image-1{
+    background: url(../image/s1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:450px;
+}
+.image-2{
+    background: url(../image/s-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:450px;
+}
+.image-3{
+    background: url(../image/s-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:450px;
+}
+#home-icon .fas{
+    font-size:50px;
+}
+#home-start{
+    background: url(../image/homeoverlay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    position: relative;
+    
+}
+.dark-overlay{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#home-video{
+    background: url(../image/homeoverlay.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    position: relative;
+
+}
+.darkoverlay{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.darkoverlay .fab{
+    font-size: 50px;
+
+}
+#gallery img{
+    min-height: 250px;
+}
+#copyright{
+    background-color: black;
+    color: white;
+}
+#about-header{
+    background: url('../image/abouttopbanner.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+#about-info img{
+    height: 300px;
+    width: 300px;
+}
+#about-icon .fas, #about-icon .fab{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+#testimonial img{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#services-header{
+    background: url('../image/ba2bdb71d2e190f415bc20ce8b187f19.jpg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
